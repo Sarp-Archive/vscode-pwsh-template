@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Compile Binary",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/Compile/Compile.ps1",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Compile and Run Binary",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/InternalTerminal/CompileAndRun.ps1",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Binary",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/InternalTerminal/RunBinary.ps1",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Compile and Run Binary with wt.exe",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/WindowsTerminal/CompileAndRun.ps1",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Binary with wt.exe",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/WindowsTerminal/RunBinary.ps1",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "PowerShell Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
