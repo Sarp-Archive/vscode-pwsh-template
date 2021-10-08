@@ -1,1 +1,0 @@
-$RUN_LOC = Get-Location ; wt nt ${RUN_LOC}\bin\App.exe
