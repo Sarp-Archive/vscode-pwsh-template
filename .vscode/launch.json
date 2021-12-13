@@ -41,6 +41,13 @@
             "request": "launch",
             "script": "${file}",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Clean Output",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}/LaunchActions/Clean/CleanOutput.ps1",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
